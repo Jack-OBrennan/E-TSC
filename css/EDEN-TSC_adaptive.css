@@ -333,7 +333,7 @@ transition: background-color 0.5s;
 
 
 .textbox:hover {
-   background-color: rgba(32, 22, 17 , 0.5) ;
+   background-color: rgba(32, 22, 17 , 0.2) ;
     border-radius:15px;
 }
 
