@@ -71,7 +71,10 @@ overflow-x:hidden;
         width:90%;
         margin: auto;
     }
-    
+    .blackstripe p {
+    font-size:12px;
+        
+    }
 }
 
 /* ### HEADER ### */
@@ -392,7 +395,12 @@ a.activeb {
     
     color:#FEC;
 }
-
+.mapcont{
+    padding: 15px;
+   background-color: rgba(32, 22, 17 , 0.7) ;
+  
+  border-radius:15px;   
+}
 #damap {
     
     height:400px;
@@ -422,6 +430,7 @@ width:25%;
     margin:auto;
     object-position: center;
     text-align:center;
+    
 }
 
 #nod1 {
@@ -439,6 +448,20 @@ border-radius:15px;
 #nod1:hover {
 background-color:rgba(37, 27, 22, 0.7)
 /*background-color:rgba(210, 200, 160, 0.7)*/
+}
+
+@media only screen and (max-height : 790px){
+    #damap{
+        height:300px;
+        
+    }
+}
+@media only screen and (max-height : 690px){
+       #nod1 {
+        
+        width:50%;
+    }
+    
 }
 
 /* ### END PARAGRAPH ### */
